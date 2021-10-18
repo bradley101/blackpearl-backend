@@ -14,7 +14,7 @@ Now `POST /notify` to `http://localhost:3443` with the data params.
 
 Or 
 
-Import `db_helper.py` into your Python 2.x working directory
+Import `db_helper.py` into your Python 2.x working directory (Install `requests` module first - `python -m install requests`)
 ```
 from db_helper import sendNotification
 
